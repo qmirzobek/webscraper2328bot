@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 
 # 🔹 Replace with your Telegram bot token from @BotFather
-BOT_TOKEN = "7118797165:AAH-5uhCUoNFF3dmdKFk9AIu33_zojdkFQs"
+BOT_TOKEN = "YOUR_BOT_TOKEN"
 bot = telebot.TeleBot(BOT_TOKEN)
 
 # ✅ Function to extract text from a website
